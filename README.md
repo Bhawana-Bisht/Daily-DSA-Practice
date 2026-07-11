@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Bhawana-Bisht/Daily-DSA-Practice/tree/master/0268-missing-number) |
+| [1071-greatest-common-divisor-of-strings](https://github.com/Bhawana-Bisht/Daily-DSA-Practice/tree/master/1071-greatest-common-divisor-of-strings) |
 ## Binary Search
 |  |
 | ------- |
@@ -47,4 +48,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Bhawana-Bisht/Daily-DSA-Practice/tree/master/0209-minimum-size-subarray-sum) |
+## String
+|  |
+| ------- |
+| [1071-greatest-common-divisor-of-strings](https://github.com/Bhawana-Bisht/Daily-DSA-Practice/tree/master/1071-greatest-common-divisor-of-strings) |
 <!---LeetCode Topics End-->
