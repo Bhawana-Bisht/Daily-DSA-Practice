@@ -44,6 +44,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Bhawana-Bisht/Daily-DSA-Practice/tree/master/0209-minimum-size-subarray-sum) |
+|3_longest_substring_without_repeating_characters.cpp
+|904_fruit_into_baskets.cpp
+|longest_substring_with_k_unique_characters.cpp
 ## Prefix Sum
 |  |
 | ------- |
