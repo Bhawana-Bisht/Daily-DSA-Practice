@@ -55,8 +55,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3_longest_substring_without_repeating_characters](https://github.com/Bhawana-Bisht/Daily-DSA-Practice/tree/master/3_longest_substring_without_repeating_characters) |
 | [904_fruit_into_baskets](https://github.com/Bhawana-Bisht/Daily-DSA-Practice/tree/master/904_fruit_into_baskets) |
 | [longest_k_substring](https://github.com/Bhawana-Bisht/Daily-DSA-Practice/tree/master/longest_k_substring) |
-|  |
-| ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Bhawana-Bisht/Daily-DSA-Practice/tree/master/0209-minimum-size-subarray-sum) |
 
 ## String
