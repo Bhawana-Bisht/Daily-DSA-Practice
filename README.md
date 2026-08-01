@@ -52,8 +52,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Bhawana-Bisht/Daily-DSA-Practice/tree/master/0209-minimum-size-subarray-sum) |
-
-## Prefix Sum
+| [3_longest_substring_without_repeating_characters](https://github.com/Bhawana-Bisht/Daily-DSA-Practice/tree/master/3_longest_substring_without_repeating_characters) |
+| [904_fruit_into_baskets](https://github.com/Bhawana-Bisht/Daily-DSA-Practice/tree/master/904_fruit_into_baskets) |
+| [longest_k_substring](https://github.com/Bhawana-Bisht/Daily-DSA-Practice/tree/master/longest_k_substring) |
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Bhawana-Bisht/Daily-DSA-Practice/tree/master/0209-minimum-size-subarray-sum) |
@@ -64,12 +65,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1071-greatest-common-divisor-of-strings](https://github.com/Bhawana-Bisht/Daily-DSA-Practice/tree/master/1071-greatest-common-divisor-of-strings) |
 <!---LeetCode Topics End-->
 
-# Additional Sliding Window Problems
 
-| Problem | Solution |
-|---------|----------|
-| Longest Substring Without Repeating Characters | 3_longest_substring_without_repeating_characters |
-| Fruit Into Baskets | 904_fruit_into_baskets |
-| Longest K Unique Characters Substring (GFG) | longest_k_substring |
-| [1071-greatest-common-divisor-of-strings](https://github.com/Bhawana-Bisht/Daily-DSA-Practice/tree/master/1071-greatest-common-divisor-of-strings) |
-<!---LeetCode Topics End-->
+
