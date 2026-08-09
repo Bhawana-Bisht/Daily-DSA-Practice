@@ -1,0 +1,32 @@
+class Solution {
+public:
+    int maximumSum(vector<int>& arr) {
+        int nodelete= arr[0];
+         int onedelete= INT_MIN;
+         int ans=arr[0];
+         int n=arr.size();
+    
+          for(int i=1;i<n;i++){
+            int prevnodelete= nodelete;
+             int prevonedelete= onedelete;
+            
+            //no delete of elment
+             nodelete= max(prevnodelete+arr[i] , arr[i]);
+             //one delete
+            
+            if(prevonedelete == INT_MIN)
+              onedelete=prevnodelete;
+               
+        else
+            
+            onedelete=max(prevonedelete+arr[i], prevnodelete);
+            int  maxsum=max(onedelete,nodelete);
+             ans= max(ans,maxsum);
+             
+          }
+          return ans;
+          }
+   
+        
+    
+};
