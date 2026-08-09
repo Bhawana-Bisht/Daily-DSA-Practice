@@ -1,0 +1,24 @@
+class Solution {
+public:
+    int maxAbsoluteSum(vector<int>& nums) {
+        int minsum=nums[0];
+        int maxsum=nums[0];
+        int ans=abs(nums[0]);
+        int n=nums.size();
+        for(int i=1; i<n;i++){
+            int v1=nums[i];//two ways of maxsum
+            int v2=max(maxsum+nums[i],nums[i]);
+            //two ways of minsum
+            int v3= min(minsum+nums[i],nums[i]);
+         maxsum=v2;
+         minsum=v3;
+         int absmaxsum=abs(maxsum);
+         int absminsum=abs(minsum);
+         int maxabsolutesum= max(absmaxsum,absminsum);
+        ans= max(ans,maxabsolutesum);
+           
+
+        }
+        return ans;
+    }
+};
