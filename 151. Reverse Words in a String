@@ -1,0 +1,50 @@
+class Solution {
+public:
+    string reverseWords(string s) {
+
+        int j = 0;
+
+        // Remove extra spaces
+        for (int i = 0; i < s.size(); i++) {
+
+            // If current character is a space, skip it
+            if (s[i] == ' ')
+                continue;
+
+            // If we already have a word,
+            // add one space before the next word
+            if (j != 0)
+                s[j++] = ' ';
+
+            // Copy the complete word
+            while (i < s.size() && s[i] != ' ') {
+                s[j++] = s[i++];
+            }
+        }
+
+        // Remove unused characters from the end
+        s.resize(j);
+
+        //  Reverse the entire string
+        reverse(s.begin(), s.end());
+
+        //  Reverse each individual word
+        int start = 0;
+
+        for (int i = 0; i <= s.size(); i++) {
+
+            // If we find a space or reach the end,
+            // the current word is complete
+            if (i == s.size() || s[i] == ' ') {
+
+                // Reverse the current word
+                reverse(s.begin() + start, s.begin() + i);
+
+                // Move start to the beginning of the next word
+                start = i + 1;
+            }
+        }
+
+        return s;
+    }
+};
