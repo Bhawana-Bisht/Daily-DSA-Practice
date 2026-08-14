@@ -1,0 +1,21 @@
+class Solution {
+public:
+    int subarraySum(vector<int>& nums, int k) {
+        int n = nums.size();
+        int count = 0;
+
+        for (int low = 0; low < n; low++) {
+            int sum = 0;
+
+            for (int high = low; high < n; high++) {
+                sum += nums[high];
+
+                if (sum == k) {
+                    count++;
+                }
+            }
+        }
+
+        return count;
+    }
+};
