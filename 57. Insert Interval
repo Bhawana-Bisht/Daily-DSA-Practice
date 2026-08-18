@@ -1,0 +1,42 @@
+class Solution {
+public:
+    vector<vector<int>> insert(vector<vector<int>>& interval, vector<int>& newInterval) {
+        vector<vector<int>>res;
+        int start1 = newInterval[0];
+        int end1 = newInterval[1];
+       int  n=interval.size();
+  bool insert = false;
+        for(int i=0;i<n;i++ ){
+             int start2=interval[i][0];
+            int end2= interval[i][1];
+            //insert new interavl
+           if (end2 < start1) {
+                res.push_back(interval[i]);
+            }
+
+            // interval is after newInterval
+            else if (start2 > end1) {
+
+                if (!insert) {
+                    res.push_back({start1, end1});
+                    insert = true;
+                }
+
+                res.push_back(interval[i]);
+            }
+
+            // overlap
+            else {
+                start1 = min(start1, start2);
+                end1 = max(end1, end2);
+            }
+        }
+
+        // insert newInterval
+        if (!insert) {
+            res.push_back({start1, end1});
+        }
+
+        return res;
+    }
+};
