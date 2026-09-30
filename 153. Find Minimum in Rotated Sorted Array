@@ -1,0 +1,21 @@
+class Solution {
+public:
+    int findMin(vector<int>& arr) {
+         int n= arr.size();
+         int low=0;
+         int  high= n-1;
+          int ans=-1;
+           while( high>= low){
+             int  guess= (low+ high)/2;
+              if( arr[guess]> arr[ n-1]){
+                 low= guess+1;
+              }
+            else{
+                 ans= guess;
+                  high= guess-1;
+            }
+           }
+            return arr[ans];
+        
+    }
+};
